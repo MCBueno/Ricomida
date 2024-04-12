@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matias Bueno desafío latam">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -14,8 +15,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
-
-    <title>Document</title>
+    <link rel="shortcut icon" type="image.png" href="assets/img/favicon.png">
+    <title>Ricomida</title>
 </head>
 
 <body>
@@ -47,7 +48,7 @@
             </div>
         </nav>
     </header>
-    <section class="container" id="section1">
+    <section class="container justify-content-center" id="section1">
         <div class="row">
             <!-- <div class="container px-5" id="container1"> -->
             <div class="col">
@@ -59,71 +60,73 @@
                 <hr>
                 <h3 id="h3">110 MIN / 6 A 8 PORCIONES</h3>
                 <div class="container py-4" id="botoness1">
-                    <button type="button" class="btn btn-light B2 boton" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                        data-bs-title="Presiona para enviar tu correo">
+                    <button type="button" class="btn btn-light B2 boton" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" data-bs-title="Presiona para enviar tu correo">
                         Enviar por correo </button>
-                    <button type="button" class="btn btn-light B2 boton" data-bs-toggle="tooltip" data-bs-placement="right"
-                        data-bs-title="Agrega esta receta a tus favoritos">
-                        Añadir a Favoritos </button>                    
+                    <button type="button" class="btn btn-light B2 boton" data-bs-toggle="tooltip"
+                        data-bs-placement="right" data-bs-title="Agrega esta receta a tus favoritos">
+                        Añadir a Favoritos </button>
                 </div>
             </div>
         </div>
         </div>
     </section>
     <section id="section2">
-        <div id="carouselExampleIndicators" class="container carousel slide py-4" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner"> <!---inner permite la activacion del movimiento del carrusel -->
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-12 col-md-3">
-                            <!-- definicion de tamaño y posicion de cada una de las imagenes en el body -->
-                            <img src="assets/img/slider-1.png" class="card-img-top" />
+        <div class="d-none d-sm-none d-md-flex">
+            <div id="carouselExampleIndicators" class="container carousel slide py-4" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner"> <!---inner permite la activacion del movimiento del carrusel -->
+                    <div class="carousel-item active">
+                        <div class="row ">
+                            <div class="col-12 col-md-3">
+                                <!-- definicion de tamaño y posicion de cada una de las imagenes en el body -->
+                                <img src="assets/img/slider-1.png" class="card-img-top" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <img src="assets/img/slider-2.png" class="card-img-top" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <img src="assets/img/slider-3.png" class="card-img-top" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <img src="assets/img/slider-4.png" class="card-img-top" />
+                            </div>
                         </div>
-                        <div class="col-12 col-md-3">
-                            <img src="assets/img/slider-2.png" class="card-img-top" />
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <img src="assets/img/slider-3.png" class="card-img-top" />
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <img src="assets/img/slider-4.png" class="card-img-top" />
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <img src="assets/img/slider-5.png" class="card-img-top" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <img src="assets/img/slider-6.png" class="card-img-top" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <img src="assets/img/slider-7.png" class="card-img-top" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <img src="assets/img/slider-8.png" class="card-img-top" />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-12 col-md-3">
-                            <img src="assets/img/slider-5.png" class="card-img-top" />
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <img src="assets/img/slider-6.png" class="card-img-top" />
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <img src="assets/img/slider-7.png" class="card-img-top" />
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <img src="assets/img/slider-8.png" class="card-img-top" />
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <rb></rb>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            <rb></rb>
         </div>
     </section>
     <section id="section3">
@@ -168,7 +171,6 @@
                     <br>
                     <br>
                     <div class="col">
-
                         <ol">
                             <li>1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol
                                 grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de
@@ -253,11 +255,10 @@
                     <h2 id="titulos5">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
                     <div id="textos5">
                         <p id="parrafos5">y obtén las mejores recetas que tenemos en</p>
-
                         <h5 id="logos5">ricomida</h5>
                     </div>
                     <div class="justify-content-center text-center">
-                        <button type="button" class="btn btn-outline-secondary">Empezar</button>
+                        <button type="button" class="btn btn-outline-light">Empezar</button>
                     </div>
                 </div>
             </div>
