@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    font-family: "Cabin", sans-serif;
+}
+
+.navbar {
+    background-color: #373A3C;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-family: "Lobster", sans-serif;
+    font-size: 37px; 
+    text-decoration: none;  
+    color: #FFFFFF; 
+}
+
+#section1 {
+    font-family: "Cabin", sans-serif;
+    margin-top: 24px;
+    color: #373A3C;
+    
+}
+
+#fotos1 {
+    width: 482px;
+    height: 384px;
+}
+
+#textos1 {
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.principal {
+    width: 482px;
+    height: 384px;
+    float: left;
+}
+
+#h1 {
+    font-size: 40px;
+    font-weight: bold;   
+}
+
+#h3 {
+    font-size: 20px;
+}
+
+#section2 {
+    margin-top: 100px;
+}
+
+ul, li {
+    list-style-type: none;
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+}
+
+.titulos3 {
+text-decoration: underline;
+}
+
+#titulos4 {
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+#section4 {
+    margin-bottom: 80px;
+}
+
+#section5 {
+    background-color:#DC3545 ;
+    color: white;
+}
+
+.boton {
+    color: white;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #373A3C;
+    height: 125px;
+}
+
+#logofooter {
+    margin-top: 500px;
+}
+
+#textos5 {
+    display: flex;
+    font-size: 20px; 
+    margin-left: 100px;  
+}
+
+#logos5 {
+    margin-left: 10px;
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+}
+
+#titulos5 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
